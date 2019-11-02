@@ -3,12 +3,28 @@
   }
   
   body {
-    /* height: 100vh; */
+    background: lightgray;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  header {
+    font-size: 50px;
+    text-align: center;
+    background-color: blue;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 2rem;
+  }
+  
+  div {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80px;
+    text-align: center;
   }
   
   section {
@@ -19,12 +35,29 @@
   }
   
   section.container div {
-    border-radius: 50%;
-    border: 1px solid black;
+    border: 10px solid yellow;
+    outline-style: dashed;
   }
 
   h2 {
       text-align: center;
   }
 
-  
+  button {
+    margin: 5rem auto;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px 8px;
+    height: 2rem;
+    background: blue;
+    color: #f1f432;
+    border: 5px solid black;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  button:hover {
+    background: rgb(226, 6, 6);
+    color: #f1f432;
+  }
+
